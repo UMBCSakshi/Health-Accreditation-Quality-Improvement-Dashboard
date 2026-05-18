@@ -5,7 +5,7 @@ This project demonstrates healthcare quality improvement tracking, AAAHC accredi
 
 ## Project Overview
 
-The **RIH Accreditation & Quality Improvement Dashboard** is a mock healthcare operations dashboard created for Retriever Integrated Health (RIH) at UMBC.
+The **Health Accreditation & Quality Improvement Dashboard** is a mock healthcare operations dashboard created for Retriever Integrated Health (Health) at UMBC.
 
 It brings together multiple areas of health center operations into one easy-to-use dashboard:
 
@@ -37,9 +37,9 @@ The role includes work related to:
 
 This project shows how data, documentation, and user-centered design can be combined to support health center operations.
 
-## Connection to the RIH Graduate Assistant Role
+## Connection to the Health Graduate Assistant Role
 
-This dashboard reflects the type of work expected in the RIH Graduate Assistant position.
+This dashboard reflects the type of work expected in the Health Graduate Assistant position.
 
 ### AAAHC Accreditation Readiness
 
@@ -125,7 +125,7 @@ The dashboard includes key performance indicators such as:
 ## Folder Structure
 
 ```text
-rih-accreditation-quality-dashboard/
+Health-accreditation-quality-dashboard/
 │
 ├── app.py
 ├── requirements.txt

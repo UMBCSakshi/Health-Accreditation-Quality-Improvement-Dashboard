@@ -1,4 +1,9 @@
 # Health-Accreditation-Quality-Improvement-Dashboard
+All data in this project is synthetic and created for demonstration purposes only.
+
+This project does not use real patient data, protected health information, student records, or clinical records.
+It is intended only as a portfolio project to demonstrate dashboard design, quality improvement tracking, and accreditation readiness documentation skills.
+
 Accomplished a centralized healthcare operations dashboard, measured by 9 dashboard modules and 8 synthetic datasets, by building a Streamlit application to track utilization, behavioral health, referrals, insurance trends, satisfaction, QI projects, policies, and accreditation readiness.
 A professional Streamlit dashboard designed for a university health center environment.  
 This project demonstrates healthcare quality improvement tracking, AAAHC accreditation readiness support, policy documentation management, KPI monitoring, and clean dashboard design using synthetic data.

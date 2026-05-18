@@ -8,7 +8,7 @@ from pathlib import Path
 # Page configuration
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="RIH Accreditation & QI Dashboard",
+    page_title="Health Accreditation & QI Dashboard",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -167,7 +167,7 @@ def status_color(status):
 # ---------------------------------------------------------
 # Sidebar
 # ---------------------------------------------------------
-st.sidebar.title("🏥 RIH Dashboard")
+st.sidebar.title("🏥 Health Dashboard")
 st.sidebar.caption("Accreditation & Quality Improvement")
 
 page = st.sidebar.radio(
@@ -220,7 +220,7 @@ qi_projects_in_progress = qi_projects[qi_projects["Status"] == "In Progress"].sh
 # Page: Overview
 # ---------------------------------------------------------
 if page == "Overview Dashboard":
-    st.title("RIH Accreditation & Quality Improvement Dashboard")
+    st.title("Health Accreditation & Quality Improvement Dashboard")
     st.caption("Mock dashboard for Retriever Integrated Health, UMBC")
 
     section_note(
@@ -743,6 +743,6 @@ elif page == "Policy Documentation Tracker":
 # ---------------------------------------------------------
 st.markdown("---")
 st.caption(
-    "RIH Accreditation & Quality Improvement Dashboard | Built with Streamlit, Pandas, and Plotly | "
+    "Health Accreditation & Quality Improvement Dashboard | Built with Streamlit, Pandas, and Plotly | "
     "Synthetic demo data only"
 )
